@@ -158,12 +158,3 @@ for (let i = 0; i < navigationLinks.length; i++) {
   });
 };
 
-var portLink = document.querySelectorAll('.menuLink')
-
-portLink.forEach(function(menuLink) {
-  menuLink.addEventListener('click', function() {
-    var link = menuLink.getAttribute('data-link');
-
-    window.open(link, '_blank')
-  });
-});
